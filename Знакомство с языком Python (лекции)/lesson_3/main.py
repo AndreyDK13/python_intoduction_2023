@@ -23,9 +23,12 @@
 # fibonacci sequence
 
 def fib (n):
-    if n in (1,2)
+    if n in (1,2):
         return 1
     return fib(n-1) + fib (n-2)
 
-print (fib(10))
-
+num = int(input('Number of elements = '))
+list_1 = []
+for i in range(1, num+1):
+    list_1.append (fib(i))
+print (list_1)
