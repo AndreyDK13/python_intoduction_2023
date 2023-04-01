@@ -25,7 +25,6 @@ else:
 cnt = int (input ('Input the count: '))
 check = cnt % 6
 share = cnt // 6
-
 if check > 0:
     print (f"The Peter's number = {share}")
     print (f"The Sergey's number = {share}")
@@ -45,7 +44,6 @@ else:
 # # # 123456 -> no
 
 num = input('Input the ticket\'s number (6 digits): ')
-
 if len(num) != 6:
     print('Uncorrect number')
 else:
@@ -65,7 +63,6 @@ else:
 # 3 2 1 -> no
 
 n,m,k = int(input('Input n = ')), int(input('Input m = ')), int(input('Input k = '))
-
 if k%n == 0 or k%m ==0:
     print ('Dividing is possible')
 else:
